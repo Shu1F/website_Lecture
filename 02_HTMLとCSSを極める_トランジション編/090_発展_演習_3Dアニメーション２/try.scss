@@ -31,6 +31,29 @@ $cBlack: black;
         transform-origin: center center -25px;
 
       }
+      & .hovering {
+        background-color: $cBlack;
+        color: $cWhite;
+        transform: rotateX(90deg);
+        transform-origin: center center -25px;
+      }
+
+      & .default {
+        background-color: $cWhite;
+        color: $cBlack;
+        transform: rotateX(0);
+        transform-origin: center center -25px;
+      }
+
+      &:hover {
+        & .hovering {
+          transform: rotateX(0);
+        }
+  
+        & .default {
+          transform: rotateX(-90deg);
+        }
+      }
     }
   }
 }  
