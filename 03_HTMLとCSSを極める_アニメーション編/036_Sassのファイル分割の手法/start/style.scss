@@ -1,0 +1,11 @@
+@use 'child' as *;
+@use 'child2';
+
+
+h1 {
+    color: $cBlue;
+}
+
+h2 {
+    color: child2.$cRed;
+}

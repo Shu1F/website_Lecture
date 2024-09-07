@@ -1,5 +1,3 @@
-@use "mixin" as mxn;
-
 $cBlack: black;
 
 body {
@@ -11,7 +9,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: $cBlack;
-  @include mxn.animation($name: sk-bouncedelay);
+  @include animation($name: sk-bouncedelay);
   // animation: sk-bouncedelay 1.4s;
   // animation-timing-function: ease;
   // animation-delay: 3s;
