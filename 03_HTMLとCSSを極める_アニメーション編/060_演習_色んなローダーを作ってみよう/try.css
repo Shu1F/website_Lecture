@@ -98,4 +98,11 @@
 .try .rect-spinner > div:nth-child(5) {
   animation-delay: -0.8s;
 }
-@sk-stretchdelay2 {}/*# sourceMappingURL=try.css.map */
+@keyframes sk-stretchdelay2 {
+  0%, 40%, 100% {
+    transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1);
+  }
+}/*# sourceMappingURL=try.css.map */

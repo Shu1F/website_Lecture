@@ -78,7 +78,7 @@
     text-align: center;
     letter-spacing: -2px;
 
-    &>div {
+    & > div {
       background-color: #333;
       height: 100%;
       width: 6px;
@@ -97,5 +97,14 @@
     }
   }
 
-  @sk-stretchdelay2 {}
+  @keyframes sk-stretchdelay2 {
+    0%,
+    40%,
+    100% {
+      transform: scaleY(0.4);
+    }
+    20% {
+      transform: scaleY(1);
+    }
+  }
 }
