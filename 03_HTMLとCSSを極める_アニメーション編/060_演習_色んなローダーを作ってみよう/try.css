@@ -69,4 +69,33 @@
   height: 40px;
   text-align: center;
   letter-spacing: -2px;
-}/*# sourceMappingURL=try.css.map */
+}
+.try .rect-spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  animation-name: sk-stretchdelay2;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+.try .rect-spinner > div:nth-child(1) {
+  animation-delay: -1.2s;
+}
+.try .rect-spinner > div:nth-child(2) {
+  animation-delay: -1.1s;
+}
+.try .rect-spinner > div:nth-child(3) {
+  animation-delay: -1s;
+}
+.try .rect-spinner > div:nth-child(4) {
+  animation-delay: -0.9s;
+}
+.try .rect-spinner > div:nth-child(5) {
+  animation-delay: -0.8s;
+}
+@sk-stretchdelay2 {}/*# sourceMappingURL=try.css.map */
