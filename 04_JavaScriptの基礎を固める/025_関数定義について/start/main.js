@@ -1,11 +1,9 @@
-function hello(name, age) {
-    // let name = 'Shuichi Fujiike';
-    console.log('Hello' + name + age);
-    return name + age;
-}
+const hello = function (name, age) {
+  //   let name = "Code Mafia";
+  console.log("hello " + name + age);
+  return name + age;
+};
 
-
-
-hello(' Shuichi Fujiike', 20);
-const returnVal = hello(' Shuichi Fujiike2', 15);
+hello("Shuichi Fujiike", 10);
+const returnVal = hello("Shuichi Fujiike2 ", 20);
 console.log(returnVal);
