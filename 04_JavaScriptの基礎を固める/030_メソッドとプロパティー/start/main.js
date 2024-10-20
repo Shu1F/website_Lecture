@@ -1,7 +1,2 @@
-const arry = new Array(1,2,3,4,5,6);
-
-
-arry.unshift('endNumber');
-
-const val = arry.shift();
-console.log(val);
+let hello = "hello world";
+console.log(hello.slice(0, 5));
