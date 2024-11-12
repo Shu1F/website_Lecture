@@ -16,15 +16,8 @@ const todos = [
   },
 ];
 
-// for (let i = 0; i < todos.length; i++) {
-//   let todo = todos[i];
-//   if (todo.completed === true) {
-//     console.log(i, todo.title);
-//   }
-// }
-
-for (let v of todos) {
-  if (v.completed === true) {
-    console.log(v.completed);
+for (let todo of todos) {
+  if (todo.completed === true) {
+    console.log(todo.title);
   }
 }
