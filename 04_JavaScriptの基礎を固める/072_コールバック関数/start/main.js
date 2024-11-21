@@ -1,10 +1,10 @@
-// function hello(callback, lastName) {
-//   console.log("hello" + callback(lastName));
-// }
+function hello(callback, lastName) {
+  console.log("hello" + callback(lastName));
+}
 
-// hello(function (name) {
-//   return "Shuichi" + name;
-// }, "Fujiike");
+hello(function (name) {
+  return "Shuichi" + name;
+}, "Fujiike");
 
 function doSomething(a, b, callback) {
   const result = callback(a, b);
