@@ -12,4 +12,44 @@
   color: black;
   text-decoration: none !important;
   /* ここにボタンのスタイルを追加していこう */
+}
+.try .btn.float {
+  transition: all 0.3s ease;
+}
+.try .btn.float:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 5px 6px 9px -3px rgba(0, 0, 0, 0.57);
+}
+.try .btn.filled {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+  box-shadow: 5px 6px 9px -3px rgba(0, 0, 0, 0.57);
+}
+.try .btn.filled:hover {
+  color: black;
+  background-color: white;
+  box-shadow: none;
+}
+.try .btn.letter-spacing:hover {
+  background-color: black;
+  color: white;
+  letter-spacing: 3px;
+}
+.try .btn.shadow:hover {
+  box-shadow: 6px 6px 0px 0px black;
+  transform: translate(-2.5px, -2.5px);
+}
+.try .btn.solid {
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  transition: all 0.3s ease;
+  box-shadow: 2px 2px 0px 0px black;
+}
+.try .btn.solid:hover {
+  box-shadow: none;
+  transform: translate(2.5px, 2.5px);
 }/*# sourceMappingURL=try.css.map */
