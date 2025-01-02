@@ -1,6 +1,8 @@
 .mobile-menu-icon {
   background-color: transparent;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 .mobile-menu-icon > span {
   background-color: black;
