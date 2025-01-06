@@ -1,11 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
   const btn = document.querySelector("#btn");
   const ta = new TextAnimation(".animate-title");
+  console.log(ta);
   const ta2 = new TextAnimation(".animate-title-2");
+  console.log(ta2);
   ta.animate();
   ta2.animate();
   btn.addEventListener("click", ta.animate.bind(ta));
 });
+
 class TextAnimation {
   constructor(el) {
     this.el = document.querySelector(el);
