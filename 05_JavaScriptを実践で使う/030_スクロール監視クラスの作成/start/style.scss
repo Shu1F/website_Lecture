@@ -16,6 +16,7 @@ section {
   &:nth-child(2) {
     background-color: mediumvioletred;
   }
+
   &:nth-child(3) {
     background-color: orange;
   }
@@ -45,12 +46,10 @@ section {
 }
 
 .animate-title.inview .char {
-  @include animation(
-    $name: kf-animate-chars,
+  @include animation($name: kf-animate-chars,
     $duration: 0.5s,
     $timing-function: cubic-bezier(0.39, 1.57, 0.58, 1),
-    $fill-mode: both
-  );
+    $fill-mode: both);
 
   @for $i from 1 through 30 {
     &:nth-child(#{$i}) {
