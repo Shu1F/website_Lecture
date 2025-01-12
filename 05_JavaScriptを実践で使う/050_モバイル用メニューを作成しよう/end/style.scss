@@ -35,20 +35,21 @@ body {
         border: none;
         outline: none !important;
         cursor: pointer;
-    
-        & > span {
+
+        &>span {
             background-color: $cMenuClose;
             width: 35px;
             height: 2px;
             display: block;
             margin-bottom: 9px;
             transition: transform 0.7s;
-    
+
             &:last-child {
                 margin-bottom: 0;
             }
         }
     }
+
     &__cover {
         position: absolute;
         top: 0;
@@ -61,11 +62,13 @@ body {
         transition: opacity 1s;
         cursor: pointer;
     }
+
     &__main {
         padding: 0;
         perspective: 2000px;
         transform-style: preserve-3d;
     }
+
     &__item {
         list-style: none;
         display: block;
@@ -74,6 +77,7 @@ body {
         transition: transform 0.3s, opacity 0.2s;
         opacity: 0;
     }
+
     &__link {
         display: block;
         margin-top: 30px;
@@ -87,12 +91,13 @@ body {
         transform: translate(-300px, 60px);
         box-shadow: 0 8px 40px -10px rgba(0, 0, 0, 0.8);
     }
-    
+
     & .mobile-menu {
         &__cover {
             opacity: 1;
             visibility: visible;
         }
+
         &__item {
             transform: none;
             opacity: 1;
@@ -103,18 +108,21 @@ body {
                 }
             }
         }
+
         &__btn {
-            & > span {
+            &>span {
                 background-color: $cMenuOpen;
-    
+
                 &:nth-child(1) {
                     transition-delay: 70ms;
                     transform: translateY(11px) rotate(135deg);
                 }
+
                 &:nth-child(2) {
                     transition-delay: 0s;
-                    transform:  translateX(-18px) scaleX(0);
+                    transform: translateX(-18px) scaleX(0);
                 }
+
                 &:nth-child(3) {
                     transition-delay: 140ms;
                     transform: translateY(-11px) rotate(-135deg);
@@ -128,6 +136,7 @@ body {
     font-weight: 600;
     font-size: 25px;
 }
+
 .sub-title {
     display: block;
     font-size: 14px;
