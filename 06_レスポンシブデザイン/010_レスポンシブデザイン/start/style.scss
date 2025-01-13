@@ -1,0 +1,16 @@
+//mobile用
+//mobileファーストで開発が推奨
+//mobileのほうがシンプルだから
+
+h1 {
+    color: red;
+    background-color: yellow;
+}
+
+//desktop用
+
+@media screen and (min-width: 601px) {
+    h1 {
+        color: blue;
+    }
+}
