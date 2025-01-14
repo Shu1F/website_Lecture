@@ -44,3 +44,46 @@
   @extend .font-sm;
   color: $cSubTitle;
 }
+
+.content-width {
+  width: 90%;
+  margin: 0 auto;
+
+  max-width: $contentMaxWidth;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+
+  @include mq(md) {
+    flex-direction: row;
+    //wrap : 横幅に入らない場合は次の行に折り返し
+    //wrapにしないと詰まった感じになってしまう（無理やり横並びにするため）
+    flex-wrap: wrap;
+  }
+}
+
+.mb-sm {
+  margin-bottom: 16px !important;
+}
+
+.mb-lg {
+  margin-bottom: 80px !important;
+
+  @include mq(lg) {
+    margin-bottom: 150px;
+  }
+}
+
+.pb-sm {
+  padding-bottom: 16px !important;
+}
+
+.pb-lg {
+  padding-bottom: 80px !important;
+
+  @include mq(lg) {
+    padding-bottom: 150px;
+  }
+}

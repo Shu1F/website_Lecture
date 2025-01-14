@@ -1,4 +1,5 @@
 @use "mq" as *;
+
 // モバイル用のスタイル
 h1 {
   color: red;
@@ -11,11 +12,11 @@ h1 {
   @include mq(md) {
     color: purple;
   }
-  
+
   @include mq(lg) {
     color: green;
   }
-  
+
   @include mq(xl) {
     color: orange;
   }

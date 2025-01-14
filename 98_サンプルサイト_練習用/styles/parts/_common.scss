@@ -66,6 +66,7 @@ img {
     font-size: 16px;
   }
 }
+
 .font-md {
   font-size: 17px;
 
@@ -73,6 +74,7 @@ img {
     font-size: 19px;
   }
 }
+
 .font-lr {
   font-size: 17px;
 
@@ -80,6 +82,7 @@ img {
     font-size: 23px;
   }
 }
+
 .font-lg {
   font-size: 25px;
 
@@ -97,5 +100,6 @@ img {
 
 .sub-title {
   @extend .font-sm;
+  @extend .mb-sm;
   color: $cSubTitle;
 }
